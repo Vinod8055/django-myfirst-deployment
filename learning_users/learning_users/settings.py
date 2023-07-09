@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-&fxf9ee7^&#-(p($a5nc4(_7*1@z-n+v^y+v%-6*ye(z!i4f5t
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['vinodmalakappanavar.pythonanywhere.com', ]
+ALLOWED_HOSTS = ['https://vinodmalakappanavar.pythonanywhere.com/', ]
 
 
 # Application definition
@@ -128,7 +128,7 @@ USE_TZ = True
 STATIC_URL = 'static/'
 STATICFILES_DIRS = [BASE_DIR / 'static', ]
 
-#MEDIA
+# MEDIA
 MEDIA_URL = '/media/'
 MEDIA_ROOT = BASE_DIR / 'media'
 LOGIN_URL = 'learning_app/login'
